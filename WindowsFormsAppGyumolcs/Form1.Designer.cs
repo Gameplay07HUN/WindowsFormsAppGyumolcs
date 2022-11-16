@@ -53,6 +53,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 450);
             this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // labelId
             // 
@@ -146,6 +147,7 @@
             this.buttonModosítas.TabIndex = 10;
             this.buttonModosítas.Text = "Módosítás";
             this.buttonModosítas.UseVisualStyleBackColor = true;
+            this.buttonModosítas.Click += new System.EventHandler(this.buttonModosítas_Click);
             // 
             // buttonTorles
             // 
@@ -155,6 +157,7 @@
             this.buttonTorles.TabIndex = 11;
             this.buttonTorles.Text = "Törlés";
             this.buttonTorles.UseVisualStyleBackColor = true;
+            this.buttonTorles.Click += new System.EventHandler(this.buttonTorles_Click);
             // 
             // Form1
             // 
